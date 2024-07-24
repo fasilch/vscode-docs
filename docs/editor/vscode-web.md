@@ -1,4 +1,30 @@
----
+---<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" />
+
+  <!-- Outer Circle -->
+  <circle cx="100" cy="100" r="80" stroke="#6c757d" stroke-width="10" fill="#343a40" />
+
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="60" fill="#adb5bd" />
+
+  <!-- Arrow for marketing growth -->
+  <path d="M80 120 L100 60 L120 120" fill="none" stroke="#f8f9fa" stroke-width="8" />
+  <polyline points="95,90 100,60 105,90" fill="#f8f9fa" />
+
+  <!-- Text -->
+  <text x="100" y="150" font-family="Arial, sans-serif" font-size="16" fill="#6c757d" text-anchor="middle">
+    Legent Trend
+  </text>
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="16" fill="#6c757d" text-anchor="middle">
+    Markeet
+  </text>
+</svg>
+
+
+
+
+
 Order: 11
 Area: editor
 TOCTitle: VS Code for the Web
